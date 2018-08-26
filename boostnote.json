@@ -1,0 +1,30 @@
+{
+  "folders": [
+    {
+      "key": "3cf6786dd6b3c73af3bd",
+      "color": "#1278BD",
+      "name": "Default"
+    },
+    {
+      "key": "e0b4874ac74b73e6fe1e",
+      "color": "#FF8E00",
+      "name": "Node.js"
+    },
+    {
+      "key": "7388dfb57425c7cbf6b5",
+      "color": "#2BA5F7",
+      "name": "React"
+    },
+    {
+      "key": "077a904b40254ae1e0ad",
+      "color": "#E10051",
+      "name": "Snowrobin"
+    },
+    {
+      "key": "504b5931611804c056b5",
+      "color": "#2BA5F7",
+      "name": "技術ブログ"
+    }
+  ],
+  "version": "1.0"
+}

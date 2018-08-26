@@ -1,0 +1,59 @@
+createdAt: "2018-08-05T03:28:15.272Z"
+updatedAt: "2018-08-05T11:46:12.643Z"
+type: "MARKDOWN_NOTE"
+folder: "e0b4874ac74b73e6fe1e"
+title: "コードフォーマッター Prettier"
+content: '''
+  # コードフォーマッター Prettier
+  
+  ## インストール
+  
+  ```
+  npm install --save prettier
+  ```
+  
+  ## フォーマットルールの作成
+  
+  プロジェクトディレクトリ直下に `.prettierrc.json` ファイルを新規作成してオブジェクト形式で設定する。
+  
+  設定内容は [Options · Prettier](https://prettier.io/docs/en/options.html) を確認。
+  
+  ```json
+  {
+    "printWidth": 100,
+    "semi": false
+  }
+  ```
+  
+  ## タスクランナーで実行する
+  
+  ファイル保存時に自動的にフォーマットしたい場合の設定。
+  
+  ### npm で onchange パッケージをインストールする
+  
+  ```
+  npm install --save onchange
+  ```
+  
+  ### package.json の scripts に実行コマンドを追記する
+  
+  ```
+  {
+    "scripts": {
+      ...
+      "prettier-watch": "onchange '**/*.js' -- node_modules/.bin/prettier --write {{changed}}"
+    }
+  }
+  ```
+  
+  `--` 以降の `prettier` コマンドはグローバルに入ってる場合は Path を省略してもOK。
+  
+  以上の設定でファイル保存時に自動的にフォーマットをかけてくれる。
+  
+'''
+tags: [
+  "npm"
+  "メモ"
+]
+isStarred: false
+isTrashed: false

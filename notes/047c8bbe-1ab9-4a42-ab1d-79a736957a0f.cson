@@ -1,0 +1,31 @@
+createdAt: "2018-08-04T17:06:23.434Z"
+updatedAt: "2018-08-05T11:46:32.261Z"
+type: "MARKDOWN_NOTE"
+folder: "e0b4874ac74b73e6fe1e"
+title: "npm のバージョンアップ方法"
+content: '''
+  # npm のバージョンアップ方法
+  
+  npm コマンドでそのままできるっぽいです。
+  
+  ```node
+  npm update -g npm
+  ```
+  
+  全ての npm パッケージを一気にアップデートする方法
+  
+  ```node
+  npm update -g
+  ```
+  
+  古くなっているパッケージの確認方法
+  
+  ```node
+  npm outdated -g
+  ```
+'''
+tags: [
+  "npm"
+]
+isStarred: false
+isTrashed: false

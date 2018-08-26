@@ -1,0 +1,26 @@
+createdAt: "2018-08-26T11:23:11.595Z"
+updatedAt: "2018-08-26T14:30:38.616Z"
+type: "MARKDOWN_NOTE"
+folder: "504b5931611804c056b5"
+title: "PHP で HTTP クライアントの Guzzle を使う"
+content: '''
+  # PHP で HTTP クライアントの Guzzle を使う
+  
+  ## 記事におこす内容
+  
+  冒頭で会社の新卒が困ってたので記事に書くという話をする
+  
+  1. インストール方法（composer）
+  2. 利用方法
+  3. インスタンス化の時の、コンストラクタ引数について [Quickstart — Guzzle Documentation](http://docs.guzzlephp.org/en/stable/quickstart.html#creating-a-client)
+  4. Requestbin の紹介
+  5. request の紹介
+  6. get の紹介
+  7. ラッパークラス作った話
+  8. promise の紹介
+'''
+tags: [
+  "メモ"
+]
+isStarred: false
+isTrashed: false

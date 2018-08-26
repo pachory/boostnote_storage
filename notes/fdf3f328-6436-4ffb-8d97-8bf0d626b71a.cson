@@ -1,0 +1,20 @@
+createdAt: "2018-08-05T06:04:09.554Z"
+updatedAt: "2018-08-17T17:18:13.833Z"
+type: "MARKDOWN_NOTE"
+folder: "7388dfb57425c7cbf6b5"
+title: "公式チュートリアル"
+content: '''
+  # 公式チュートリアル
+  
+  どこまでやったかメモ
+  
+  - [x] [Tutorial: Intro to React - React](https://reactjs.org/tutorial/tutorial.html#inspecting-the-starter-code)
+  - [x] 次はここから [Tutorial: Intro to React - React](https://reactjs.org/tutorial/tutorial.html#completing-the-game)
+  - [x] 次はここから [Tutorial: Intro to React - React](https://reactjs.org/tutorial/tutorial.html#functional-components)
+'''
+tags: [
+  "React"
+  "チュートリアル"
+]
+isStarred: false
+isTrashed: false
